@@ -214,6 +214,11 @@
     margin-top: 28px;
   }
 
+  .option-grid > .col-12 {
+    flex: 0 0 50%;
+    width: 50%;
+  }
+
   .option-card {
     width: min(100%, 128px);
   }
@@ -261,6 +266,11 @@
   .option-grid {
     row-gap: 10px;
     margin-top: 24px;
+  }
+
+  .option-grid > .col-12 {
+    flex: 0 0 100%;
+    width: 100%;
   }
 
   .option-card {
